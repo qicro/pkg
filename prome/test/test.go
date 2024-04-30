@@ -4,9 +4,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus"
 	"github.com/qicro/pkg/httpclient"
 	"github.com/qicro/pkg/prome"
+
+	"github.com/prometheus/client_golang/prometheus"
 )
 
 var (

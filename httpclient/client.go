@@ -11,8 +11,9 @@ import (
 	httpURL "net/url"
 	"time"
 
+	"pkg/trace"
+
 	"github.com/pkg/errors"
-	"github.com/qicro/pkg/trace"
 	"go.uber.org/zap"
 )
 
